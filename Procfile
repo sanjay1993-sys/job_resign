@@ -1,1 +1,1 @@
-web:streamlit run job.py
+web:sh setup.sh && streamlit run job.py
