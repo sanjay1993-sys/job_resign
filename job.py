@@ -14,8 +14,8 @@ def predict(model, input_df):
 
 def run():
     from PIL import Image
-    image = Image.open('/home/sanjay/Desktop/employee.jpeg')
-    image_office = Image.open('/home/sanjay/Desktop/office.jpeg')
+    image = Image.open('employee.jpeg')
+    image_office = Image.open('office.jpeg')
     st.image(image,use_column_width=False)
     add_selectbox = st.sidebar.selectbox(
     "How would you like to predict?",
