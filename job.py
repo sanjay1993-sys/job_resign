@@ -48,7 +48,5 @@ def run():
             predictions = predict_model(estimator=model,data=data)
             st.write(predictions)
 
-    
-    
-    
-run()
+if __name__ == '__main__':
+    run()
